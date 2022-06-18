@@ -162,7 +162,7 @@
         5. mdi-file-folder-shared
         -->
         <!--Resume Link-->
-        <a aria-label="Open Varad's resume in a new tab" href="#" target="_blank"
+        <a aria-label="Open Abhishek's resume in a new tab" href="assets/resume/Resumes.pdf" target="_blank"
         class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>  
       </li>
     </ul>
@@ -208,7 +208,7 @@
             class="mdi-content-mail small"></i><span>Contact</span></a>
       </li>
       <li class="bold">
-        <a aria-label="Open Varad's Resume in a new tab"
+        <a aria-label="Open Abhishek's Resume in a new tab"
           href="https://drive.google.com/file/d/1B6MZ1z0-7NsefC3Lm_q-uhib28MTqpE9/view?usp=sharing" target="_blank"
           class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>
       </li>
@@ -256,11 +256,19 @@
                   <i class="fa fa-instagram"></i>
                 </button>
               </a>
+              <a href="https://www.twitter.com/abhishekkandel3" target="_blank">
+                <button class="icon-btn twitter">
+                  <i class="fa fa-twitter"></i>
+                </button>
+              </a>
               <a href="mailto:abhishekkandel@abhishekkandel.com.np" target="_blank">
                 <button class="icon-btn email">
                   <i class="fa fa-envelope"></i>
                 </button>
               </a>
+
+
+              
             </div>
             <div class='buttons'>
               <a href="#about" class="readme">Read More</a>
@@ -593,61 +601,53 @@
     </section>
 
     <!-- Eight Section: Contact -->
-    <section id="contact" class="section scrollspy full-height">
+    <section id="contact">
       <h3 class="page-title white-text teal">Contact</h3>
-      <div class="container">
-        <p>
-          <a aria-label="Call Varad" data-position="top" data-tooltip="Call ABhishek "
-            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-phone"></i><a
-              aria-label="Call Varad">+9779809461274, +919105625541</a></a>
-        </p>
-        <p>
-          <a aria-label="Email Varad" href="mailto:abhishekkandel@abhishekkandel.com.np" target="_blank" data-position="top"
-            data-tooltip="Email Varad" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-              class="fa fa-envelope"></i><a aria-label="Email Varad" href="mailto:abhishekkandel@abhishekkandel.com.np"
-              class="hoverline">abhishekkandel@abhishekkandel.com.np</a></a>
-        </p>
-        <p>
-          <a aria-label="View Varad on GitHub" href="http://github.com/abhishekkandel45" target="_blank"
-            data-position="top" data-tooltip="View Varad on GitHub"
-            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-github"></i><a
-              aria-label="Varad on Github" href="http://github.com/abhishekkandel45 class="hoverline"
-              target="_blank">github.com/abhishekkandel45</a></a>
-        </p>
-        <p>
-          <a aria-label="View Varad on LinkedIn" href="http://linkedin.com/in/abhishekkandel45 target="_blank"
-            data-position="top" data-tooltip="View Varad on LinkedIn"
-            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-              class="fa fa-linkedin"></i><a aria-label="Varad on LinkedIn" href="http://linkedin.com/in/abhishekkandel45"
-              class="hoverline" target="_blank">linkedin.com/in/abhishekkandel45</a></a>
-        </p>
-        <p>
-          <a aria-label="View Varad on Facebook" href="http://facebook.com/abhishekkandel45" target="_blank"
-            data-position="top" data-tooltip="View Varad on Facebook"
-            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-facebook"></i><a
-              aria-label="Varad on Facebook" href="http://facebook.com/abhishekkandel45" class="hoverline"
-              target="_blank">Abhishek Kandel</a></a>
-        </p>
-        <p>
-          <a aria-label="View Varad on Instagram" href="http://instagram.com/abhishekkandel45" target="_blank"
-            data-position="top" data-tooltip="View Varad on Instagram"
-            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-instagram"></i><a
-              aria-label="Varad on Instagram" href="http://instagram.com/abhishekkandel45" class="hoverline"
-              target="_blank">abhishekkandel45</a></a>
-        </p>
-        <p>
-          <a aria-label="View Varad on Twitter" href="http://twitter.com/abhishekkandel3" target="_blank"
-            data-position="top" data-tooltip="View Varad on Twitter"
-            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-twitter"></i><a
-              aria-label="Varad on Twitter" href="http://twitter.com/abhishekkandel3" class="hoverline"
-              target="_blank">@abhishekkande3</a></a>
-        
+<!-- Contact Form -->
+<!-- Creating Contact Form-->
+      <div id="form" >
+        <div class="container">
+          <div class="row">
+            <div class="col s12 m6 l6">
+              <div class="card">
+                <div class="card-content">
+                  <h4 class="brown-text light">Contact Form</h4>
+                  <div class="row">
+                    <form class="col s12" action="contact.php" method="post">
+                      <div class="row">
+                        <div class="input-field col s12">
+                          <input id="name" name="name" type="text" class="validate">
+                          <label for="name">Name</label>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="input-field col s12">
+                          <input id="email" name="email" type="email" class="validate">
+                          <label for="email">Email</label>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="input-field col s12">
+                          <textarea id="message" name="message" class="materialize-textarea"></textarea>
+                          <label for="message">Message</label>
+                        </div>
 
-
-
+                      </div>
+                      <div class="row">
+                        <div class="input-field col s12">
+                          <button class="btn waves-effect waves-light teal" type="submit" name="action">Submit
+                          </button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
       </div>
     </section>
-  </main>
+
+
 
   <!-- typed.js -->
   <script src="assets/vendor/typed.js/typed.min.js"></script>
