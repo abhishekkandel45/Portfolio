@@ -58,6 +58,22 @@
   color: #0077b5;
 }
 
+.facebook {
+  color: #3b5998;
+}
+
+.instagram {
+  color: #e1306c;
+}
+
+.twitter {
+  color: #00acee;
+}
+
+.email {
+  color: #0077b5;
+}
+
 .angellist {
   color: grey;
 }
@@ -522,11 +538,7 @@ a.hoverline:hover {
   margin-bottom: 0;
 }
 
-#contact a:not(.btn-floating) {
-  bottom: 6px;
-  left: 20px;
-  position: relative;
-}
+
 
 #experience .col.s12.m2 {
   text-align: center;
@@ -677,16 +689,9 @@ small {
     position: relative;
     bottom: 15px;
   }
-  #contact a:not(.btn-floating) {
-    text-align: center;
-    display: block;
-    left: initial;
-    bottom: initial;
-  }
-  #contact a.btn-floating.btn-large {
-    display: block;
-    text-align: center;
-    margin: 0 auto;
+  
+  #experience .card.large .card-content {
+    height: auto;
   }
   #intro.section {
     background-position-x: 30%;
