@@ -699,10 +699,5 @@ small {
     position: relative;
     top: -64px;
   }
-  #footer-copyright a {
-    color: #666;
-  }
-  #footer-copyright a:hover {
-    color: #008073;
 
 }
