@@ -100,8 +100,7 @@
 .readme {
   position: relative;
   padding: 11px 35px;
-  background: #fff;
-  color: #00796b;
+  color: #ffffff;
   border: 2px solid #fff;
   font-weight: 600;
   font-size: 15px;
@@ -111,10 +110,10 @@
   -webkit-border-radius: 5px;
 }
 
-/* .readme:hover{
+.readme:hover{
   color: white;
   background-color: #00796b;
-} */
+} 
 
 .contactme {
   position: relative;
@@ -696,4 +695,14 @@ small {
   #intro.section {
     background-position-x: 30%;
   }
+  #footer-copyright {
+    position: relative;
+    top: -64px;
+  }
+  #footer-copyright a {
+    color: #666;
+  }
+  #footer-copyright a:hover {
+    color: #008073;
+
 }
