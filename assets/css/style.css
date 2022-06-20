@@ -95,6 +95,10 @@
   background-color: black;
 }
 
+.instagram:hover {
+  background-color: #e1306c;
+}
+
 /* Buttons - Read Me, Contact Us */
 
 .readme {
