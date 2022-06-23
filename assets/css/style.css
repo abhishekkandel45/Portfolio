@@ -99,6 +99,17 @@
   background-color: #e1306c;
 }
 
+.facebook:hover {
+  background-color: #3b5998;
+}
+
+.twitter:hover {
+  background-color: #00acee;
+}
+.email:hover {
+  background-color: #0077b5;
+}
+
 /* Buttons - Read Me, Contact Us */
 
 .readme {
