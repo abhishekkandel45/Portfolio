@@ -69,6 +69,13 @@
   background-color: #0077b5;
 }
 
+.graduation-cap {
+  color: #000000;
+}
+.graduation-cap:hover {
+  background-color: #000000;
+}
+
 .facebook {
   color: #3b5998;
 }
@@ -114,12 +121,7 @@
   transform: scale(1.10);
   color: #FFFFFF;
 }
-.graduation-cap {
-  color: #000000;
-}
-.graduation-cap:hover {
-  background-color: #000000;
-}`
+
 .icon-btn:active {
   transform: scale(1.10);
   color: #FFFFFF;
