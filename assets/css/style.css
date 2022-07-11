@@ -162,25 +162,6 @@
 /* Bulk SMS Button */
 
 
-.bulk-sms {
-  position: relative;
-  padding: 11px 35px;
-  color: #fffcfc;
-  border: 2px solid #fff;
-  font-weight: 600;
-  font-size: 15px;
-  letter-spacing: 1px;
-  display: inline-block;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  background-color: #fc0101;
-}
-.bulk-sms:hover{
-  color: white;
-  background-color: #00796b;
-  flood-opacity: 0%;
-}
-
 
 
 
