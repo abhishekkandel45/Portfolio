@@ -28,6 +28,10 @@
   right: 0;
 }
 
+
+
+
+/* Social Buttom */
 @import url(https://fonts.googleapis.com/css?family=Poiret+One);
 .social {
   margin: 0 auto;
@@ -53,70 +57,68 @@
 .github {
   color: black;
 }
+.github:hover {
+  color: #050000;
+}
+
 
 .linkedin {
   color: #0077b5;
+}
+.linkedin:hover {
+  background-color: #0077b5;
 }
 
 .facebook {
   color: #3b5998;
 }
+.facebook:hover {
+  background-color: #3b5998;
+}
 
 .instagram {
   color: #e1306c;
+}
+.instagram:hover {
+  background-color: #e1306c;
 }
 
 .twitter {
   color: #00acee;
 }
+.twitter:hover {
+  background-color: #00acee;
+}
+
 
 .email {
   color: #0077b5;
+}
+.email:hover {
+  background-color: #0077b5;
 }
 
 .snapchat {
   color: #fffc00;
 }
-
+.snapchat:hover {
+  background-color: #fffc00;
+}
+.whatsapp {
+  color: #25D366;
+}
+.whatsapp:hover {
+  background-color: #25D366;
+}
 .icon-btn:hover {
   transform: scale(1.10);
   color: #FFFFFF;
 }
-
-.whatsapp {
-  color: #25D366;
+.icon-btn:active {
+  transform: scale(1.10);
+  color: #FFFFFF;
 }
 
-.linkedin:hover {
-  background-color: #0077b5;
-}
-
-
-.github:hover {
-  background-color: black;
-}
-
-.instagram:hover {
-  background-color: #e1306c;
-}
-
-.facebook:hover {
-  background-color: #3b5998;
-}
-
-.twitter:hover {
-  background-color: #00acee;
-}
-
-.whatsapp:hover {
-  background-color: #25D366;
-}
-.email:hover {
-  background-color: #0077b5;
-}
-.snapchat:hover {
-  background-color: #fffc00;
-}
 
 /* Buttons - Read Me, Contact Us */
 
@@ -157,11 +159,6 @@
   color: #00796b;
   background-color: white;
 }
-
-
-/* Bulk SMS Button */
-
-
 
 
 
