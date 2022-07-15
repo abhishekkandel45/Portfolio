@@ -54,13 +54,6 @@
   margin: 4px;
 }
 
-.github {
-  color: black;
-}
-.github:hover {
-  color: #050000;
-}
-
 
 .linkedin {
   color: #0077b5;
@@ -74,6 +67,20 @@
 }
 .graduation-cap:hover {
   background-color: #000000;
+}
+
+.github {
+  color: #000000;
+}
+.github:hover {
+  background-color: #000000;
+}
+
+.behance {
+  color: #0554F2;
+}
+.behance:hover {
+  background-color: #0554F2;
 }
 
 .facebook {
